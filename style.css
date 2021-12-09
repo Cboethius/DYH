@@ -9,24 +9,19 @@
 
   /* Roboto font style for h1 - p and body */
 
-  @font-face{
-    src: url('./fonts/Nunito/Nunito-LightItalic.ttf') Arial, Helvetica, sans-serif;
-    font-family: nunito;
-  }
-
   h2, h3{
-    font-family: 'nunito', Arial, Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 600;
   }
 
   body{
-    font-family: 'nunito', Arial, Helvetica, sans-serif;
-    font-weight: light;
+    font-family: 'Source Code Pro', sans-serif;
     background:rgb(112, 12, 12);
   }
 
   a {
     font-size: 0.8rem;
+    font-family: 'Source Code Pro', sans-serif;
   }
 
   h1{
@@ -35,14 +30,14 @@
     display: flex;
     justify-content: flex-start;
     color: rgb(11, 11, 11);
-    font-size: 31pt;
-    font-family: 'nunito';
-    font-style: normal;
+    font-size: 3rem;
+    font-family: 'Source Code Pro', sans-serif;
     padding: 2rem;
+    font-weight: 600;
   }
 
   p{
-    font-family: 'nunito', Arial, Helvetica, sans-serif;
+    font-family: 'Mulish';
     font-weight: light;
     color: rgb(112, 12, 12);;
   }
@@ -78,7 +73,6 @@
     z-index: 1000;
     width: 60%;
     font-size: 3rem;
-    font-family: 'nunito', Times, serif;
     margin-right: 1rem;
   }
 
@@ -96,11 +90,13 @@
     cursor: pointer;
     -webkit-transition: 1000ms ease-in-out;
     transition: 1000ms ease-in-out;
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 1rem;
   }
 
   .menu a:hover{
     background: rgb(238, 237, 237);
-    padding: 0.8rem 0.5rem 0.8rem 0.5rem;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem;
     text-decoration: none;
     color:rgb(112, 12, 12);  
     display: -webkit-box;
@@ -150,12 +146,12 @@
   }
 
   .logo{
-    background-image: url('./images/Yogahaus_Visual_black.png');
+    background-image: url('./images/Yogahaus_Visual_black.svg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
     width: 150px;
-    margin-left: 10rem;
+    margin-left: 8rem;
     margin-top: -10rem;
   }
 
@@ -208,17 +204,6 @@
 
   /* Workshops */
 
-  /* picture working progress animation */
-
-  .work-in1, .work-in2, .work-in4{
-    position: absolute;
-    background-color: red;
-    color: white;
-    margin-top: 12.6rem;
-    padding: 0.5rem;
-    display: none;
-    border-radius: 0.5rem;
-  }
 
   .section-blog{
     background: rgb(238, 237, 237);
@@ -253,14 +238,17 @@
 
   /* Work shop */
 
+  /* titles for work shop */
+
   .mp{
     color:rgb(112, 12, 12);
     height: 30px;
     width: 260px;
     position: absolute;
-    margin-bottom: 16.5rem;
+    margin-bottom: 16.8rem;
     margin-right: 2.5rem;
-    font-weight: 600;
+    font-weight: 900;
+    font-size: 1.2rem;
   }
 
   .mp2{
@@ -268,19 +256,10 @@
     height: 30px;
     width: 260px;
     position: absolute;
-    font-weight: 600;
-    margin-bottom: 12rem;
+    margin-bottom: 16.8rem;
+    margin-right: 2.5rem;
+    font-weight: 900;
   }
-
-
-  .dates2{
-    color:rgb(112, 12, 12);
-    height: 30px;
-    width: 260px;
-    position: absolute;
-    margin-bottom: 7rem;
-  }
-
 
   .pic1{
     display: grid;
@@ -296,7 +275,7 @@
   }
 
   .clickpic{ 
-    background-image: url('./images/levi-guzman-zdSoe8za6Hs-unsplash.jpg');
+    background-image: url('./images/dasyogahaus_01.jpg');
     background-size: cover;
     height: 250px;
     width: 300px;
@@ -312,15 +291,34 @@
   }
 
   .buttonpic{
+    position: relative;
     height: 30px;
     width: 100%;
     z-index: 300;
     cursor: pointer;
-    margin-bottom: -2rem;
-    padding-top: 0.2rem;
     color:rgb(112, 12, 12);
+    font-weight: 700;
+    margin-bottom: -2rem;
+  }
+
+  .buttonpic div{
     background: rgb(238, 237, 237);
-    font-weight: 600;
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
   }
 
   .popup{
@@ -339,12 +337,13 @@
   }
 
   .more {
-    color:rgba(238, 237, 237, 0.815);
+    color: rgb(238, 237, 237);
     background: rgb(112, 12, 12);
     padding: 0.5rem;
     display: flex;
     justify-content: flex-start;
-    margin-top: 2.2rem;
+    margin-top: 1.8rem;
+    cursor: pointer;
   }
 
   .pic2{
@@ -359,7 +358,7 @@
   }
 
   .clickpic2{ 
-    background-image: url('./images/dane-wetton-AkSJQnem75Y-unsplash.jpg');
+    background-image: url('./images/dasyogahaus_01.jpg');
     background-size: cover;
     height: 250px;
     width: 300px;
@@ -485,7 +484,7 @@
   }
 
   .clickpic4{ 
-    background-image: url('./images/Schöpfli_dasyogahaus.jpg');
+    background-image: url('./images/dasyogahaus_01.jpg');
     background-size: cover;
     height: 250px;
     width: 300px;
