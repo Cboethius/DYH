@@ -227,7 +227,7 @@
     height: 550px;
     width: 100%;
     display: grid;
-    grid-template-rows: 1fr 0.1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr  ;
     grid-template-columns: 0.2fr 1fr 1fr 1fr 1fr 0.2fr;
     padding-top: 3rem;
     -webkit-box-pack: center;
@@ -600,7 +600,7 @@
   /* Blog text */
 
   .pic5{
-    margin-top: 5rem;
+    margin-top: 6rem;
     grid-row: 3 / 3 span;
     grid-column: 2;
     height: 250px;
@@ -686,7 +686,7 @@
   }
 
   .pic6{
-    margin-top: 5rem;
+    margin-top: 6rem;
     grid-row: 3 / 3 span;
     grid-column: 3;
     height: 250px;
@@ -773,7 +773,7 @@
 
   
   .pic7{
-    margin-top: 5rem;
+    margin-top: 6rem;
     grid-row: 3 / 3 span;
     grid-column: 4;
     height: 250px;
@@ -860,7 +860,7 @@
 
  
   .pic8{
-    margin-top: 5rem;
+    margin-top: 6rem;
     grid-row: 3 / 3 span;
     grid-column: 5;
     height: 250px;
