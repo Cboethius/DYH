@@ -37,9 +37,9 @@
   }
 
   p{
-    font-family: 'Mulish';
-    font-weight: light;
+    font-family: 'Source Code Pro', sans-serif;
     color: rgb(112, 12, 12);;
+    font-weight: 600;
   }
 
    /* Navbar and body */
@@ -207,7 +207,7 @@
 
   .section-blog{
     background: rgb(238, 237, 237);
-    height: 100vh;
+    height: 110vh;
     width: 100%;
   }
 
@@ -275,7 +275,7 @@
   }
 
   .clickpic{ 
-    background-image: url('./images/dasyogahaus_01.jpg');
+    background-image: url('./images/raimond-klavins-UvWx67Ivqe0-unsplash.jpg');
     background-size: cover;
     height: 250px;
     width: 300px;
@@ -298,7 +298,7 @@
     cursor: pointer;
     color:rgb(112, 12, 12);
     font-weight: 700;
-    margin-bottom: -2rem;
+    margin-bottom: -1.9rem;
   }
 
   .buttonpic div{
@@ -358,7 +358,7 @@
   }
 
   .clickpic2{ 
-    background-image: url('./images/dasyogahaus_01.jpg');
+    background-image: url('./images/dane-wetton-AkSJQnem75Y-unsplash.jpg');
     background-size: cover;
     height: 250px;
     width: 300px;
@@ -374,42 +374,61 @@
   }
 
   .buttonpic2{
+    position: relative;
     height: 30px;
     width: 100%;
     z-index: 300;
     cursor: pointer;
-    margin-bottom: -2rem;
-    padding-top: 0.2rem;
     color:rgb(112, 12, 12);
+    font-weight: 700;
+    margin-bottom: -1.9rem;
+  }
+
+  .buttonpic2 div{
     background: rgb(238, 237, 237);
-    font-weight: 600;
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic2 div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
   }
 
   .popup2{
-    background: rgba(238, 237, 237, 0.959);
+    background: rgba(238, 237, 237, 0.938);
     height: 250px;
     width: 100%;
     display: none;
-    z-index: 290;
   }
 
   .popup2 p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 80%;
-    margin-top: 2.6rem;
+    margin-top: 3rem;
     margin-left: 1rem;
     color:rgb(112, 12, 12);
-  
   }
 
-  .more2{
-    color:rgba(238, 237, 237, 0.815);
+  .more2 {
+    color: rgb(238, 237, 237);
     background: rgb(112, 12, 12);
     padding: 0.5rem;
     display: flex;
     justify-content: flex-start;
-    margin-top: 1rem;
+    margin-top: 1.8rem;
+    cursor: pointer;
   }
+
 
   .pic3{
     height: 250px;
@@ -423,7 +442,7 @@
   }
 
   .clickpic3{ 
-    background-image: url('./images/dasyogahaus_01.jpg');
+    background-image: url('./images/benn-mcguinness-ooL_PvggBaE-unsplash.jpg');
     background-size: cover;
     height: 250px;
     width: 300px;
@@ -439,38 +458,61 @@
   }
 
   .buttonpic3{
+    position: relative;
     height: 30px;
     width: 100%;
-    z-index: 1000;
+    z-index: 300;
     cursor: pointer;
-    display: flex;
-    margin-bottom: -2rem;
     color:rgb(112, 12, 12);
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: -1.9rem;
+  }
+
+  .buttonpic3 div{
+    background: rgb(238, 237, 237);
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic3 div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
   }
 
   .popup3{
-    background: rgba(238, 237, 237, 0.815);
+    background: rgba(238, 237, 237, 0.938);
     height: 250px;
     width: 100%;
     display: none;
   }
 
   .popup3 p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 80%;
-    margin-top: 2.6rem;
+    margin-top: 3rem;
     margin-left: 1rem;
     color:rgb(112, 12, 12);
-  
   }
 
   .more3 {
-    color:rgba(238, 237, 237, 0.815);
+    color: rgb(238, 237, 237);
     background: rgb(112, 12, 12);
-    padding: 0.3rem;
-    margin-top: 1.4rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.8rem;
+    cursor: pointer;
   }
+
 
   .pic4{
     height: 250px;
@@ -484,7 +526,7 @@
   }
 
   .clickpic4{ 
-    background-image: url('./images/dasyogahaus_01.jpg');
+    background-image: url('./images/angela_asana_DSC2738_lauraegger.jpg');
     background-size: cover;
     height: 250px;
     width: 300px;
@@ -500,43 +542,65 @@
   }
 
   .buttonpic4{
+    position: relative;
     height: 30px;
     width: 100%;
-    z-index: 1000;
+    z-index: 300;
     cursor: pointer;
-    display: flex;
-    margin-bottom: -2rem;
     color:rgb(112, 12, 12);
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: -1.9rem;
+  }
+
+  .buttonpic4 div{
+    background: rgb(238, 237, 237);
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic4 div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
   }
 
   .popup4{
-    background: rgba(238, 237, 237, 0.815);
+    background: rgba(238, 237, 237, 0.938);
     height: 250px;
     width: 100%;
     display: none;
   }
 
   .popup4 p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 80%;
-    margin-top: 2.6rem;
+    margin-top: 3rem;
     margin-left: 1rem;
     color:rgb(112, 12, 12);
-  
   }
 
   .more4 {
-    color:rgba(238, 237, 237, 0.815);
+    color: rgb(238, 237, 237);
     background: rgb(112, 12, 12);
-    padding: 0.3rem;
-    margin-top: 1.4rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.8rem;
+    cursor: pointer;
   }
-
 
   /* Blog text */
 
   .pic5{
+    margin-top: 5rem;
     grid-row: 3 / 3 span;
     grid-column: 2;
     height: 250px;
@@ -550,7 +614,7 @@
   }
 
   .clickpic5{ 
-    background-image: url('./images/ara-cho-m_zmf2J063Q-unsplash.jpg');
+    background-image: url('./images/dane-wetton-lBpmXaNQOCM-unsplash.jpg');
     background-size: cover;
     height: 250px;
     width: 300px;
@@ -566,41 +630,63 @@
   }
 
   .buttonpic5{
+    position: relative;
     height: 30px;
     width: 100%;
-    z-index: 1000;
+    z-index: 300;
     cursor: pointer;
-    display: flex;
-    margin-bottom: -2rem;
     color:rgb(112, 12, 12);
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: -1.9rem;
+  }
+
+  .buttonpic5 div{
+    background: rgb(238, 237, 237);
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic5 div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
   }
 
   .popup5{
-    background: rgba(238, 237, 237, 0.815);
+    background: rgba(238, 237, 237, 0.938);
     height: 250px;
     width: 100%;
     display: none;
   }
 
   .popup5 p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 80%;
-    margin-top: 2.6rem;
+    margin-top: 3rem;
     margin-left: 1rem;
     color:rgb(112, 12, 12);
-  
   }
 
   .more5 {
-    color:rgba(238, 237, 237, 0.815);
+    color: rgb(238, 237, 237);
     background: rgb(112, 12, 12);
-    padding: 0.3rem;
-    margin-top: 1.4rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.8rem;
+    cursor: pointer;
   }
 
-  
   .pic6{
+    margin-top: 5rem;
     grid-row: 3 / 3 span;
     grid-column: 3;
     height: 250px;
@@ -630,43 +716,64 @@
   }
 
   .buttonpic6{
+    position: relative;
     height: 30px;
     width: 100%;
-    z-index: 1000;
+    z-index: 300;
     cursor: pointer;
-    display: flex;
-    margin-bottom: -2rem;
     color:rgb(112, 12, 12);
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: -1.9rem;
+  }
+
+  .buttonpic6 div{
+    background: rgb(238, 237, 237);
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic6 div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
   }
 
   .popup6{
-    background: rgba(238, 237, 237, 0.815);
+    background: rgba(238, 237, 237, 0.938);
     height: 250px;
     width: 100%;
     display: none;
   }
 
   .popup6 p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 80%;
-    margin-top: 2.6rem;
+    margin-top: 3rem;
     margin-left: 1rem;
     color:rgb(112, 12, 12);
-  
   }
 
   .more6 {
-      color:rgba(238, 237, 237, 0.815);
-      background: rgb(112, 12, 12);
-      padding: 0.5rem;
-      display: flex;
-      justify-content: flex-start;
-      margin-top: 1.86em;
+    color: rgb(238, 237, 237);
+    background: rgb(112, 12, 12);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.8rem;
+    cursor: pointer;
   }
 
   
   .pic7{
+    margin-top: 5rem;
     grid-row: 3 / 3 span;
     grid-column: 4;
     height: 250px;
@@ -696,41 +803,64 @@
   }
 
   .buttonpic7{
+    position: relative;
     height: 30px;
     width: 100%;
-    z-index: 1000;
+    z-index: 300;
     cursor: pointer;
-    display: flex;
-    margin-bottom: -2rem;
     color:rgb(112, 12, 12);
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: -1.9rem;
+  }
+
+  .buttonpic7 div{
+    background: rgb(238, 237, 237);
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic7 div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
   }
 
   .popup7{
-    background: rgba(238, 237, 237, 0.815);
+    background: rgba(238, 237, 237, 0.938);
     height: 250px;
     width: 100%;
     display: none;
   }
 
   .popup7 p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 80%;
-    margin-top: 2.6rem;
+    margin-top: 3rem;
     margin-left: 1rem;
     color:rgb(112, 12, 12);
-  
   }
 
   .more7 {
-    color:rgba(238, 237, 237, 0.815);
+    color: rgb(238, 237, 237);
     background: rgb(112, 12, 12);
-    padding: 0.3rem;
-    margin-top: 1.4rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.8rem;
+    cursor: pointer;
   }
 
  
   .pic8{
+    margin-top: 5rem;
     grid-row: 3 / 3 span;
     grid-column: 5;
     height: 250px;
@@ -744,7 +874,7 @@
   }
 
   .clickpic8{ 
-    background-image: url('./images/schöpfli_sign\ in__DSC0926.jpg');
+    background-image: url('./images/ara-cho-m_zmf2J063Q-unsplash.jpg');
     background-size: cover;
     height: 250px;
     width: 300px;
@@ -760,38 +890,61 @@
   }
 
   .buttonpic8{
+    position: relative;
     height: 30px;
     width: 100%;
-    z-index: 1000;
+    z-index: 300;
     cursor: pointer;
-    display: flex;
-    margin-bottom: -2rem;
     color:rgb(112, 12, 12);
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: -1.9rem;
+  }
+
+  .buttonpic8 div{
+    background: rgb(238, 237, 237);
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic8 div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
   }
 
   .popup8{
-    background: rgba(238, 237, 237, 0.815);
+    background: rgba(238, 237, 237, 0.938);
     height: 250px;
     width: 100%;
     display: none;
   }
 
   .popup8 p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 80%;
-    margin-top: 2.6rem;
+    margin-top: 3rem;
     margin-left: 1rem;
     color:rgb(112, 12, 12);
-  
   }
 
   .more8 {
-    color:rgba(238, 237, 237, 0.815);
+    color: rgb(238, 237, 237);
     background: rgb(112, 12, 12);
-    padding: 0.3rem;
-    margin-top: 1.4rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.8rem;
+    cursor: pointer;
   }
+
 
  
 
