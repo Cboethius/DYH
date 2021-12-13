@@ -1,7 +1,7 @@
 const btn1 = $('.buttonpic')
 
-btn1.click( function() {
-  $('.popup').slideToggle(400)
+btn1.click( function () {
+  $('.popup').slideToggle(800)
 })
 
 const btn2 = $('.buttonpic2')
