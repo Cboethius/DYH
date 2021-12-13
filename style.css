@@ -10,18 +10,19 @@
   /* Roboto font style for h1 - p and body */
 
   h2, h3{
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 600;
   }
 
   body{
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
     background:rgb(112, 12, 12);
   }
 
   a {
     font-size: 0.8rem;
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
     font-weight: 600;
   }
 
@@ -32,15 +33,16 @@
     justify-content: flex-start;
     color: rgb(11, 11, 11);
     font-size: 3rem;
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
     padding: 2rem;
     font-weight: 600;
   }
 
   p{
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: rgb(112, 12, 12);;
-    font-weight: 600;
+    font-weight: 500;
   }
 
    /* Navbar and body */
@@ -84,8 +86,9 @@
     cursor: pointer;
     -webkit-transition: 1000ms ease-in-out;
     transition: 1000ms ease-in-out;
-    font-family: 'Source Code Pro', sans-serif;
-    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 100;
     padding: 0.6rem;
   }
 
@@ -1169,7 +1172,6 @@
     display: none;
     width: 100%;
   }
-  /* contact form vor noblie use */
 
 
 }
