@@ -94,7 +94,7 @@
 
   .menu a:hover{
     background: rgb(238, 237, 237);
-    padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+    padding: 0.9rem;
     text-decoration: none;
     color:rgb(112, 12, 12);  
     display: -webkit-box;
@@ -864,6 +864,10 @@
                 justify-content: center;
     }  
 
+    .navbar{
+      width: 1450px;
+    }
+
 
   }
 
@@ -927,6 +931,16 @@
   .burgermenu a{
     text-decoration: none;
     color:white;
+  }
+
+  .burgermenu a:hover{
+    background: rgb(238, 237, 237);
+    width: 100%;
+    padding: 0.2rem 0 0.2rem 0;
+    color:rgb(112, 12, 12);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   /* work shop contianer */
@@ -1035,7 +1049,6 @@
 /* This is for sizing for mobile from 540px - 320px */
 
 @media screen and (max-width: 640px) {
-
 
   /* aboutme / portaitpicture for mobile use */
 
