@@ -45,3 +45,27 @@ const btn8 = $('.buttonpic8')
 btn8.click( function() {
   $('.popup8').slideToggle(400)
 })
+
+const btn9 = $('.buttonpic9')
+
+btn9.click( function() {
+  $('.popup9').slideToggle(400)
+})
+
+const btn10 = $('.buttonpic10')
+
+btn10.click( function() {
+  $('.popup10').slideToggle(400)
+})
+
+const btn11 = $('.buttonpic11')
+
+btn11.click( function() {
+  $('.popup11').slideToggle(400)
+})
+
+const btn12 = $('.buttonpic12')
+
+btn12.click( function() {
+  $('.popup12').slideToggle(400)
+})

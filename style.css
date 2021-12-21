@@ -11,7 +11,7 @@
 
   h2, h3{
     font-family: 'Rubik', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   body{
@@ -22,7 +22,6 @@
   a {
     font-size: 0.8rem;
     font-family: 'Rubik', sans-serif;
-
     font-weight: 600;
   }
 
@@ -88,7 +87,7 @@
     transition: 1000ms ease-in-out;
     font-family: 'Rubik', sans-serif;
     font-size: 0.7rem;
-    font-weight: 100;
+    font-weight: 400;
     padding: 0.6rem;
   }
 
@@ -159,45 +158,6 @@
     width: 150px;
   }
 
-
-  /* Ausblidung */
-
-  .aboutme{
-    height: 60vh;
-    width: 100%;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row;
-            justify-content: flex-start;
-  }
-
-  .portrait{
-    background-image: url('./images/stephanie-greene-1aB-1s4BIEo-unsplash.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 45%;
-    height: 60vh;
-  }
-
-  .an{
-    background:rgb(112, 12, 12);
-    padding: 0.5rem;
-    margin-left: 1.2rem;
-    margin-top: 1rem;
-    cursor: pointer;
-    border: solid rgba(0, 0, 0, 0.205);
-    color: white
-  }
-
-  .an:hover{
-    background:rgb(112, 12, 12);
-    padding: 0.5rem;
-    cursor: pointer;
-  }
-
-
   /* divider */
 
   .divider{
@@ -220,13 +180,6 @@
    padding: 1.2rem;
   }
 
-  .ausp{
-    width: 30%;
-    height: 280px;
-    padding-left: 1.2rem;
-    font-size: 0.7rem;
-  }
-
   .container-workshop{
     height: 700px;
     width: 100%;
@@ -234,10 +187,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-top: 1.2rem;
   }
-
- 
-
-  /* Work shop */
 
   /* titles for work shop */
 
@@ -845,6 +794,339 @@
     cursor: pointer;
   }
 
+  /* Ausblidung */
+
+  .ausbildung{
+    background: rgb(238, 237, 237);
+    height: 600px;
+    width: 100%;
+  }
+
+  .ausbildung-container{
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 1.2rem;
+}
+
+  .pic9{
+    grid-column: 1;
+    height: 250px;
+    padding: 1.2rem;
+  }
+
+  .clickpic9{ 
+    background-image: url('./images/dmitriy-frantsev-Vv9ZLASXfTo-unsplash.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .buttonpic9{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    z-index: 300;
+    cursor: pointer;
+    color:rgb(112, 12, 12);
+    font-weight: 700;
+    margin-bottom: -1.9rem;
+  }
+
+  .buttonpic9 div{
+    background: rgb(238, 237, 237);
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic9 div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  }
+
+  .popup9{
+    background: rgba(238, 237, 237, 0.938);
+    height: 250px;
+    width: 100%;
+    display: none;
+  }
+
+  .popup9 p{
+    font-size: 0.8rem;
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color:rgb(112, 12, 12);
+  }
+
+  .more9 {
+    color: rgb(238, 237, 237);
+    background: rgb(112, 12, 12);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.8rem;
+    cursor: pointer;
+  }
+
+  .pic10{
+    display: grid;
+    grid-column: 2;
+    height: 250px;
+    padding: 1.2rem;
+  }
+
+  .clickpic10{ 
+    background-image: url('./images/jared-rice-NTyBbu66_SI-unsplash.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .buttonpic10{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    z-index: 300;
+    cursor: pointer;
+    color:rgb(112, 12, 12);
+    font-weight: 700;
+    margin-bottom: -1.9rem;
+  }
+
+  .buttonpic10 div{
+    background: rgb(238, 237, 237);
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic10 div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  }
+
+  .popup10{
+    background: rgba(238, 237, 237, 0.938);
+    height: 250px;
+    width: 100%;
+    display: none;
+  }
+
+  .popup10 p{
+    font-size: 0.8rem;
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color:rgb(112, 12, 12);
+  }
+
+  .more10 {
+    color: rgb(238, 237, 237);
+    background: rgb(112, 12, 12);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.8rem;
+    cursor: pointer;
+  }
+
+  .pic11{
+    display: grid;
+    grid-column: 3;
+    height: 250px;
+    padding: 1.2rem;
+  }
+
+  .clickpic11{ 
+    background-image: url('./images/yayan-sopian-jQqn81J-PhQ-unsplash.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .buttonpic11{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    z-index: 300;
+    cursor: pointer;
+    color:rgb(112, 12, 12);
+    font-weight: 700;
+    margin-bottom: -1.9rem;
+  }
+
+  .buttonpic11 div{
+    background: rgb(238, 237, 237);
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic11 div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  }
+
+  .popup11{
+    background: rgba(238, 237, 237, 0.938);
+    height: 250px;
+    width: 100%;
+    display: none;
+  }
+
+  .popup11 p{
+    font-size: 0.8rem;
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color:rgb(112, 12, 12);
+  }
+
+  .more11 {
+    color: rgb(238, 237, 237);
+    background: rgb(112, 12, 12);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.8rem;
+    cursor: pointer;
+  }
+
+  .pic12{
+    display: grid;
+    grid-column: 4;
+    height: 250px;
+    padding: 1.2rem;
+  }
+
+  .clickpic12{ 
+    background-image: url('./images/kike-vega-F2qh3yjz6Jk-unsplash.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .buttonpic12{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    z-index: 300;
+    cursor: pointer;
+    color:rgb(112, 12, 12);
+    font-weight: 700;
+    margin-bottom: -1.9rem;
+  }
+
+  .buttonpic12 div{
+    background: rgb(238, 237, 237);
+    color: rgb(112, 12, 12);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1000ms ease-in-out;
+  }
+
+  .buttonpic12 div:hover{
+    background: rgb(112, 12, 12);
+    color: rgb(238, 237, 237);
+    height: 30px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  }
+
+  .popup12{
+    background: rgba(238, 237, 237, 0.938);
+    height: 250px;
+    width: 100%;
+    display: none;
+  }
+
+  .popup12 p{
+    font-size: 0.8rem;
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color:rgb(112, 12, 12);
+  }
+
+  .more12 {
+    color: rgb(238, 237, 237);
+    background: rgb(112, 12, 12);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.8rem;
+    cursor: pointer;
+  }
+
+
+  .an{
+    background:rgb(112, 12, 12);
+    padding: 0.5rem;
+    width: 100px;
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: solid rgba(0, 0, 0, 0.205);
+    color: white
+  }
+
+  .an:hover{
+    background:rgb(114, 114, 114);
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+
+
+
+
+
    /* Ultra wide desktop */
 
   @media screen and (min-width: 1450px) {
@@ -987,6 +1269,32 @@
     padding: 1.2rem;
   }
 
+  .ausbildung{
+    background: rgb(238, 237, 237);
+    height: 900px;
+    width: 100%;
+  }
+
+  .ausbildung-container{
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-top: 1.2rem;
+  }
+
+  .pic11{
+    display: grid;
+    grid-column: 1;
+    height: 250px;
+    padding: 1.2rem;
+  }
+  .pic12{
+    display: grid;
+    grid-column: 2;
+    height: 250px;
+    padding: 1.2rem;
+  }
 
 }
 
@@ -1159,6 +1467,43 @@
   }
   
   .pic8{
+    display: grid;
+    grid-column: 1;
+    height: 250px;
+    padding: 1.2rem;
+  }
+
+  /* Ausbildung */
+
+  .ausbildung{
+    background: rgb(238, 237, 237);
+    height: 1500px;
+    width: 100%;
+  }
+  
+  .ausbildung-container{
+    height: 1300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr  ;
+    padding-top: 1.2rem;
+  }
+
+  .pic10{
+    display: grid;
+    grid-column: 1;
+    height: 250px;
+    padding: 1.2rem;
+  }
+
+  .pic11{
+    display: grid;
+    grid-column: 1;
+    height: 250px;
+    padding: 1.2rem;
+  }
+
+  .pic12{
     display: grid;
     grid-column: 1;
     height: 250px;
